@@ -4,22 +4,31 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "libs/*"
   ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "create-app": "ts-node ./generators/create-app/index.ts"
   },
   "devDependencies": {
-    "eslint-config-custom": "*",
-    "prettier": "latest",
-    "turbo": "latest"
+    "@types/lodash": "^4.14.186",
+    "@types/prompts": "^2.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-turbo": "^0.0.4",
+    "eslint-plugin-prettier": "^4.2.1",
+    "lodash": "^4.17.21",
+    "prettier": "^2.7.1",
+    "prompts": "^2.4.2",
+    "turbo": "latest",
+    "typescript": "^4.8.4"
   },
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=16.0.0<=19.0.0"
   },
-  "dependencies": {},
-  "packageManager": "yarn@1.22.19"
+  "engineStrict": true
 }

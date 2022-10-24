@@ -20,7 +20,9 @@
 				"eamodio.gitlens",
 				"PKief.material-icon-theme",
 				"sdras.night-owl",
-				"aaron-bond.better-comments"
+				"aaron-bond.better-comments",
+				"Vue.volar",
+				"esbenp.prettier-vscode"
 			]
 		}
 	},

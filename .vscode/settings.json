@@ -1,0 +1,11 @@
+{
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.linkedEditing": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "volar.codeLens.scriptSetupTools": true,
+}
