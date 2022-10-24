@@ -36,7 +36,7 @@ const askQuestions = () => {
   ])
 }
 
-const updatePackageJson = async (appPath: string, answers: Record<string, any> = {}) => {
+const updatePackageJson = async (appPath: string, answers: Record<string, unknown> = {}) => {
   await updateJson(
     `${appPath}/package.json`,
     {
