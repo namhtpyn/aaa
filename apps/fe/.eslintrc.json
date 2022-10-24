@@ -1,0 +1,11 @@
+{
+  "extends": ["../../.eslintrc.json"],
+  "ignorePatterns": [],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.vue"],
+      "extends": ["plugin:vue/vue3-recommended"],
+      "rules": {}
+    }
+  ]
+}

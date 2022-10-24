@@ -31,3 +31,9 @@ yarn-error.log*
 
 # turbo
 .turbo
+
+#nestjs
+dist
+
+#nuxt
+.nuxt
